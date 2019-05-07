@@ -15,8 +15,8 @@ public class player {
     int x, dx, y, nx, nx2, distanceTraveled;  
     protected int Width, Height;
     Image player;                                                                              
-    ImageIcon playerFacingLeft = new     ImageIcon("character2.png");  
-    ImageIcon playerFacingRight = new     ImageIcon("character2.png");
+    ImageIcon playerFacingLeft = new     ImageIcon("player.PNG");  
+    ImageIcon playerFacingRight = new     ImageIcon("player.PNG");
 
     public player() {
         player = playerFacingRight.getImage();                                               
@@ -27,7 +27,9 @@ public class player {
         distanceTraveled = 24;
     }
 
-    public void move() {                // gets the coordinates of the player and resets them accordingly to how the player moves
+    public void move() {
+        // gets the coordinates of the player and resets them accordingly to how the player moves
+        
         if(x>0 && x<300) {                                                                   
             x = x+dx;                                                                        
             nx = nx+dx;                                                                      
