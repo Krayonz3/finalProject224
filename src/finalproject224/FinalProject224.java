@@ -1,5 +1,10 @@
 package finalproject224;
 
+/*
+AUTHOR: CARLOS VAZQUEZ BAUR, JOEY TORII
+
+*/
+
 
 import Window.*;
 import java.awt.BorderLayout;

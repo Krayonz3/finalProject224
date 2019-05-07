@@ -1,5 +1,10 @@
 package Window;
 
+/*
+AUTHOR: CARLOS VAZQUEZ BAUR, JOEY TORII
+
+*/
+
 import java.awt.*;                                                                           
 import java.awt.event.*;
 import java.util.Random;

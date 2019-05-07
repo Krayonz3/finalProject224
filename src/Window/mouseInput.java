@@ -1,7 +1,7 @@
 package Window;
 
 /*
-
+AUTHOR: CARLOS VAZQUEZ BAUR, JOEY TORII
 
 */
 
