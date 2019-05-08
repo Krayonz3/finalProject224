@@ -44,7 +44,7 @@ public class Final implements ActionListener, KeyListener {
     public Final() {
    
         JFrame Game = new JFrame();
-        menu menuObject = new menu();
+        //menu menuObject = new menu();
         renderer = new Renderer();
         Game.add(renderer);
         random = new Random();
